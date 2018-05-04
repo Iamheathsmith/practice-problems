@@ -1,0 +1,29 @@
+.calcButton {
+  width: 40px;
+  outline: none;
+}
+
+.calcButton:hover {
+  background-color: yellow;
+}
+
+.calcDisplay {
+  width: 165px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  height: 20px;
+  text-align: right;
+}
+
+.calcForm {
+  border-radius: 3px;
+  border: 1px solid black;
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  background-color: bisque;
+}
+
+.calcRow {
+  margin-bottom: 5px;
+}
