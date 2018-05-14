@@ -18,4 +18,20 @@ module.exports = new class {
       }
     }
   }
+
+  isPalindromeString(x) {
+    let count = x.length - 1;
+
+    for (let i = 0; i < x.length; i++) {
+      if (i >= count) {
+        return true;
+      }
+
+      if (x[i] === x[count]) {
+        count--;
+      } else {
+        return false;
+      }
+    }
+  }
 }
