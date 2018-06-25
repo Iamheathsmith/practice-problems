@@ -3,11 +3,7 @@
 
 const Run = require('./solution');
 
-let test = { val: 1, right:
-  { val: 2,
-    right: null,
-    left: { val: 3, right: null, left: null } },
-left: null }
+let test = [2,3,5,1,7]
 
 
-console.log('answer', Run.postorderTraversal(test));
+console.log('answer', Run.findMin(test));

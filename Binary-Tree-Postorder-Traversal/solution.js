@@ -1,12 +1,16 @@
 'use strict';
 
 module.exports = new class {
-  postorderTraversal(root, inOrd=[]) {
-    if(!root) return [];
-    if(root === null) return null;
-    inOrd.unshift(root.val);
-    this.postorderTraversal(root.right, inOrd);
-    this.postorderTraversal(root.left, inOrd);
-    return inOrd;
+  findMin(nums) {
+    let final = 0;
+    for (let i = 0; i < nums.length; i++) {
+      if (i === 0) {
+        final = nums[i]
+      }
+      if (nums[i] < final) {
+        final = nums[i]
+      }
+    }
+    return final
   }
 };
