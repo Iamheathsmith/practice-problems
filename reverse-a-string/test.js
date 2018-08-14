@@ -2,6 +2,8 @@
 
 const Run = require('./solution');
 
-let test = '   a   b '
+let testStr = '   a   b '
+let testNum = 145
 
-console.log('answer', Run.reverseWords(test));
+console.log('answer', Run.reverseWords(testStr));
+console.log('answer', Run.reverseNumWithMath(testNum));
