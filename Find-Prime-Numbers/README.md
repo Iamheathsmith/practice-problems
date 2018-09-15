@@ -33,7 +33,6 @@ Run `node test.js` plus `some number` and it will run the function with the numb
     let final = [];
     for (let i = 2; i <= arg; i++) {
       if (this.checkNum(i)) {
-        console.log('inside', i)
         final.push(i)
       }
     }
